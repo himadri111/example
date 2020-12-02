@@ -35,4 +35,4 @@ def snell(theta_inc, n1, n2):
     >>> snell(np.pi/4, 1.00, 1.33)
     0.5605584137424605
     """
-    return np.arcsin(n1 / n2 * np.sin(theta_inc)) * 2.0
+    return np.arcsin(n1 / n2 * np.sin(theta_inc))
